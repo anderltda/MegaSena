@@ -12,6 +12,7 @@
 		AC822C1B2332EA8600AA5AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC822C192332EA8600AA5AE9 /* Main.storyboard */; };
 		AC822C1D2332EA8800AA5AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC822C1C2332EA8800AA5AE9 /* Assets.xcassets */; };
 		AC822C202332EA8900AA5AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC822C1E2332EA8900AA5AE9 /* LaunchScreen.storyboard */; };
+		AC822C282332EF8900AA5AE9 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC822C272332EF8900AA5AE9 /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AC822C1C2332EA8800AA5AE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC822C1F2332EA8900AA5AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC822C212332EA8900AA5AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC822C272332EF8900AA5AE9 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				AC822C1C2332EA8800AA5AE9 /* Assets.xcassets */,
 				AC822C1E2332EA8900AA5AE9 /* LaunchScreen.storyboard */,
 				AC822C212332EA8900AA5AE9 /* Info.plist */,
+				AC822C272332EF8900AA5AE9 /* RoundedButton.swift */,
 			);
 			path = MegaSena;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC822C182332EA8600AA5AE9 /* ViewController.swift in Sources */,
+				AC822C282332EF8900AA5AE9 /* RoundedButton.swift in Sources */,
 				AC822C162332EA8600AA5AE9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 935U9U23YX;
 				INFOPLIST_FILE = MegaSena/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 935U9U23YX;
 				INFOPLIST_FILE = MegaSena/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

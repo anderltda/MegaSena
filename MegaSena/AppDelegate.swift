@@ -41,6 +41,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void) -> Bool {
+        
+        switch userActivity.activityType {
+        case UserActivityType.GenerateMegaSenaNumbers:
+            // Gerar novo numero aleatorio
+            
+            guard let vc = window?.rootViewController as? ViewController else {
+                return false
+            }
+            
+            vc.generateNumbers()
+            
+            return true
+        default:
+            return false
+        }
+        
+    }
 
 }
 
